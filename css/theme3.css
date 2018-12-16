@@ -1269,9 +1269,9 @@
   .blog-item a:hover h3,.news-item a:hover h3,.service-item a:hover h3{color:#5B70C0;-webkit-transition:all 400ms cubic-bezier(0.694,0.0482,0.335,1);-moz-transition:all 400ms cubic-bezier(0.694,0.0482,0.335,1);-ms-transition:all 400ms cubic-bezier(0.694,0.0482,0.335,1);-o-transition:all 400ms cubic-bezier(0.694,0.0482,0.335,1);transition:all 400ms cubic-bezier(0.694,0.0482,0.335,1)}
   .blog-item .thumb1,.news-item .thumb1,.service-item .thumb1{width:100%;background:#E9ECEF;overflow:hidden;-webkit-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-moz-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-ms-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-o-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1)}
   .blog-item .thumb1 img,.news-item .thumb1 img,.service-item .thumb1 img{height:auto;width:100%;display:block}
-  a.btn1{border:2px solid #0197d6; cursor: pointer; display:inline-block;position:relative;border-radius:4px;padding:8px 20px 9px;background:#fff;text-decoration:none;margin-left:15px;-webkit-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-moz-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-ms-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-o-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1)}
+  a.btn1{border:2px solid #ffff; cursor: pointer; display:inline-block;position:relative;border-radius:4px;padding:8px 20px 9px;background:#fff;text-decoration:none;margin-left:15px;-webkit-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-moz-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-ms-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-o-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1)}
   a.btn1:first-of-type{margin-left:0}
-  a.btn1 span{color:#0197d6;position:relative;z-index:3}
+  a.btn1 span{color:#ffff;position:relative;z-index:3}
   a.btn1::after{content:'';background:#0197d6;position:absolute;left:0;top:0;height:100%;width:0;opacity:0;-webkit-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-moz-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-ms-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);-o-transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1);transition:all 200ms cubic-bezier(0.694,0.0482,0.335,1)}
   a.btn1:hover{color:#fff;text-decoration:none}
   a.btn1:hover span{color:#fff}
@@ -1279,7 +1279,7 @@
   @media (max-width: 767px) {
   a.btn1{background:#20a2af;min-width:46%;text-align:center;padding:13px 20px 14px}
   a.btn1::after{background:#fff;width:100%;opacity:1}
-  a.btn1 span{color:#20a2af!important}
+  a.btn1 span{color:#20a2af}
   }
   @media (max-width: 350px) {
   a.btn1{position:relative;bottom:22px}
@@ -1334,160 +1334,44 @@
       height: 700px;
     }
   }
-  div.hands img{
-    width: 350px;
-    height: auto;
-  
-    
-  }
-  div.hands {
-    position: relative;
-    margin-bottom: -110px;
-    top: 10px;
-    left: 350px;
-  }
-  div.modalhand{
-      position: absolute;
-      left: 740px;
-      top: 50px;
-      width: 400px;
-      height: 354px;
-      z-index: 6;
-  }
-  div.modalhand h3{
-    font-size: 36px;
-    line-height: 40px;
-    position: relative;
-    margin: 35px;
-    top: 75px;
-  }
-  div.modalhand p{
-    position: relative;
-    top: 60px;
-    margin-left: 45px;
-  }
-  div.modalhand p a{
-    width: 230px;
-    background: transparent;
-    border-color: #ffff;
-    color: #ffff;
-  }
-  div.modalhand p a:hover{
-    border-color: #0197d6; 
-  }
-  div.modalhand p a span{
-    position: relative;
-    left: 35px;
-    color: #ffff;
-  }
-div.linha{
-  width: 70px;
-  height: 20px;
-  background: #ffff;
-  color: #ffff;
-  position: relative;
-  margin-left: 40px;
-  top: 90px;
-}
-@media (max-width: 800px){
-  div.modalhand{
-    position: relative;
-    display: block;
 
-  }
-}
 div#textx h2{
 color: #ffff;
 position: relative;
-top: 195px;
-font-size: 30px;
-left: 160px;
+font-size: 36px;
+width: 300px;
 }
 div#linha{
   position: relative;
-  top: 190px;
-  left: 160px;
   width: 60px;
   height: 10px;
   background: #ffff;
 }
 div#textx{
   position: relative;
-  right: ;
-  bottom: 20px
+  top:150px;
+  left: 160px;
 }
 div#texty{
   position: relative;
-  left: 30px;
+  top: 195px;
+  right: 60px;
+  width: 400px;
 }
 div#texty h2{
   color: #ffff;
   position: relative;
-  top: 195px;
   font-size: 30px;
-  right: 60px;
-  }
-  div#texty h2 span{
-    font-size: 46px;
-  }
-  div#texty p a{
-    position: relative;
-    top: 200px;
-    width: 300px;
-    height: 50px;
-    right: 40px;
-    background: transparent;
-    border-color: #ffff;
-
-  }
-  div#texty p a span{
-    position: relative;
-    top: 3px;
-    left: 38px;
-    font-size: 24px;
-    color: #ffff;
-  }
   
-  div#textx h2{
-color: #ffff;
-position: relative;
-top: 195px;
-font-size: 30px;
-left: 160px;
-}
-div#linha{
-  position: relative;
-  top: 190px;
-  left: 160px;
-  width: 60px;
-  height: 10px;
-  background: #ffff;
-}
-div#textx{
-  position: relative;
-  right: ;
-  bottom: 20px
-}
-div#texty{
-  position: relative;
-  left: 30px;
-}
-div#texty h2{
-  color: #ffff;
-  position: relative;
-  top: 195px;
-  font-size: 30px;
-  right: 60px;
   }
   div#texty h2 span{
     font-size: 46px;
   }
   div#texty p a{
     position: relative;
-    top: 200px;
     width: 300px;
     height: 50px;
-    right: 40px;
+    left: 20px;
     background: transparent;
     border-color: #ffff;
 
@@ -1495,51 +1379,94 @@ div#texty h2{
   div#texty p a span{
     position: relative;
     top: 3px;
-    left: 38px;
+    left: 37px;
     font-size: 24px;
     color: #ffff;
   }
+  /* MEDIA */
+  @media(max-width: 800px){
+    div#textx{
+      width: 650px;
+      position: relative;
+      left: -12px;
+      top: 80px;
+    }
+    div#textx h2 {
+      font-size: 44px;
+      width: 400px;
+      line-height: 45px;  
+    }
+    div#texty{
+      width: 359px;
+      position: relative;
+      left: -12px;
+      top: 110px;
+    }
+    div#texty h2{
+      font-size: 36px;
+      line-height: 37px;
+    }
+    a.btn1::after{
+      background: transparent;
+    }
+    a.btn1 span{
+      color: #ffff; 
+    }
+    div#texty p a span{
+      position: relative;
+      top: -3px;
+      left:-3px;
+    }
+    p#btnmobile1{
+      position: relative;
+      top: 10px;
+    }
+    a#btnprincipal::after{
+      background: transparent;
+      border-color: #ffff !important;
+    }
+    a#btnprincipal{
+      border-color: #ffff;
+    }
+  }
+
   /*------------------*/
 div#textz h2{
 color: #ffff;
 position: relative;
-top: 195px;
 font-size: 30px;
-left: 160px;
 }
 div#linha3{
-  position: relative;
-  top: 190px;
-  right: 68px;
+  position: relative; 
   width: 100px;
   height: 20px;
   background: #ffff;
+  left: -40px;
 }
 div#textz{
   position: relative;
-  right: ;
-  bottom: 20px
+  top: 195px;
+  left: 160px;
 }
 div#texta{
   position: relative;
-  left: 30px;
+  top: 195px;
+  right: -30px;
 }
 div#texta h2{
   color: #ffff;
   position: relative;
-  top: 195px;
-  font-size: 30px;
-  right: 70px;
+  left: -40px;
+  font-size: 40px;
   }
   div#texta h2 span{
     font-size: 46px;
   }
   div#texta p a{
     position: relative;
-    top: 200px;
     width: 300px;
     height: 50px;
-    right: 80px;
+    right: 40px;
     background: transparent;
     border-color: #ffff;
 
@@ -1560,4 +1487,34 @@ div#texta h2{
     position: relative;
     top: 200px;
     right: 215px;
+  }
+  /* MEDIA2 */
+  @media(max-width: 800px){
+    div#textz{
+      position: relative;
+      left: -10px;
+      top: 90px;
+    }
+    img#hands4{
+      position: relative;
+      width: 390px;
+      height: auto; 
+      top: 100px;
+      right: 3px;
+    }
+    div#texta{
+      width: 359px;
+      position: relative;
+      left: -72px;
+      top: 110px;
+    }
+    div#texta h2{
+      font-size: 36px;
+      line-height: 37px;
+    }
+    div#texta p a span{
+      position: relative;
+      top: -3px;
+      left: -1px;
+    }
   }
