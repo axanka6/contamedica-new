@@ -1277,9 +1277,9 @@
   a.btn1:hover span{color:#fff}
   a.btn1:hover::after{width:100%;opacity:1}
   @media (max-width: 767px) {
-  a.btn1{background:#20a2af;min-width:46%;text-align:center;padding:13px 20px 14px}
+  a.btn1{background:transparent;min-width:46%;text-align:center;padding:13px 20px 14px}
   a.btn1::after{background:#fff;width:100%;opacity:1}
-  a.btn1 span{color:#20a2af}
+  a.btn1 span{color:#ffff}
   }
   @media (max-width: 350px) {
   a.btn1{position:relative;bottom:22px}
@@ -1410,7 +1410,7 @@ div#texty h2{
       background: transparent;
     }
     a.btn1 span{
-      color: #ffff; 
+      color: #ffff !important; 
     }
     div#texty p a span{
       position: relative;
@@ -1426,7 +1426,7 @@ div#texty h2{
       border-color: #ffff !important;
     }
     a#btnprincipal{
-      border-color: #ffff;
+      border-color: #ffff !important;
     }
   }
 
@@ -1476,7 +1476,7 @@ div#texta h2{
     top: 3px;
     left: 38px;
     font-size: 24px;
-    color: #ffff;
+    color: #ffff !important;
   }
   div#principal2{
     position: relative;
