@@ -328,3 +328,12 @@ $(function () {
     passive: !0
   })
 });
+
+$(function(e){
+  $('a.sobre-link').on('click' , function(){
+    $("html, body").animate({scrollTop: $('#sobre1').offset().top }, 1000);
+  });
+  $('a.inicio').on('click' , function(){
+    $("html, body").animate({scrollTop: $('#app1').offset().top }, 1000);
+  })
+})
