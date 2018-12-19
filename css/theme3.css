@@ -1,4 +1,7 @@
 
+html{
+  overflow-x: hidden;
+}
 @media (min-width: 768px) {
   .container{width:100%}
   }
@@ -1546,7 +1549,8 @@ button:hover{
 @media(max-width: 800px){
   img.show1{
     position: relative;
-    right: 20px;
+    right: 10%;
+    width: 700px;
   }
   img.show2{
     position: relative;
