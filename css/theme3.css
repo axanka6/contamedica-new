@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) {
   .container{width:100%}
   }
@@ -1329,12 +1330,6 @@
   img.show{width:800px;height:auto}
   }
   ul.list-1-footer{list-style-type:none;padding:0}
-  @media (min-width: 1024px){
-    header#app1{
-      height: 700px;
-    }
-  }
-
 div#textx h2{
 color: #ffff;
 position: relative;
@@ -1384,7 +1379,7 @@ div#texty h2{
     color: #ffff;
   }
   /* MEDIA */
-  @media(max-width: 800px){
+  @media(max-width: 1200px){
     div#textx{
       width: 650px;
       position: relative;
@@ -1476,7 +1471,7 @@ div#texta h2{
     background-image: linear-gradient(to bottom right, #0199dc, #00b572);
   }
   /* MEDIA2 */
-  @media(max-width: 800px){
+  @media(max-width: 1200px){
     div#textz{
       position: relative;
       left: -10px;
@@ -1532,7 +1527,7 @@ div#texta h2{
     right: 5px;
     padding: 8px 70px 9px;
   }
-  @media(max-width: 800px){
+  @media(max-width: 1200px){
     button.button2{
       padding: 8px 80px 9px;
       font-size: 16px;
@@ -1543,13 +1538,24 @@ div#texta h2{
       top:115px;
     }
   }
- body{
-  overflow-x: hidden;
-}
 button:hover{
   background: rgba(255, 255, 255, 0.185);
   transition: 0.6s;
   
+}
+@media(max-width: 800px){
+  img.show1{
+    position: relative;
+    right: 20px;
+  }
+  img.show2{
+    position: relative;
+    left: 30px;
+  }
+  iframe.maps1{
+    width: 260px;
+    height: auto;
+  }
 }
 @media(max-width: 570px){
   div#textx h2 {
@@ -1570,13 +1576,6 @@ button:hover{
     width: 630px;
   }
 }
-@media(max-width: 800px){
-  img.show1{
-    position: relative;
-    right: 20px;
-  }
-  img.show2{
-    position: relative;
-    left: 30px;
-  }
-}
+
+
+
