@@ -1355,7 +1355,7 @@ div#textx{
 div#texty{
   position: relative;
   top: 195px;
-  right: 60px;
+  right: 20px;
   width: 400px;
 }
 div#texty h2{
@@ -1445,13 +1445,13 @@ div#linha3{
 }
 div#textz{
   position: relative;
-  top: 195px;
+  top: 105px;
   left: 160px;
 }
 div#texta{
   position: relative;
-  top: 195px;
-  right: -30px;
+  top: 135px;
+  left: 20px;
 }
 div#texta h2{
   color: #ffff;
@@ -1462,22 +1462,6 @@ div#texta h2{
   div#texta h2 span{
     font-size: 46px;
   }
-  div#texta p a{
-    position: relative;
-    width: 300px;
-    height: 50px;
-    right: 40px;
-    background: transparent;
-    border-color: #ffff;
-
-  }
-  div#texta p a span{
-    position: relative;
-    top: 3px;
-    left: 38px;
-    font-size: 24px;
-    color: #ffff !important;
-  }
   div#principal2{
     position: relative;
     left: 100px;
@@ -1485,8 +1469,11 @@ div#texta h2{
   img#hands4{
     width: 450px;
     position: relative;
-    top: 200px;
+    top: 150px;
     right: 215px;
+  }
+  div#tela3{
+    background-image: linear-gradient(to bottom right, #0199dc, #00b572);
   }
   /* MEDIA2 */
   @media(max-width: 800px){
@@ -1499,8 +1486,8 @@ div#texta h2{
       position: relative;
       width: 390px;
       height: auto; 
-      top: 100px;
-      right: 3px;
+      top: 115px;
+      right: 10px;
     }
     div#texta{
       width: 359px;
@@ -1518,3 +1505,48 @@ div#texta h2{
       left: -1px;
     }
   }
+  /* BOTÕES */
+  button.button1{
+    border: 2px solid #ffff;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    padding: 8px 40px 9px;
+    background: none;
+    color: #ffff;
+    font-size: 18px;
+  }
+  button.button2{
+    border: 2px solid #ffff;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    padding: 8px 100px 9px;
+    background: none;
+    color: #ffff;
+    font-size: 22px;
+  }
+  button.topbutton{
+    position: relative;
+    top: 135px;
+    right: 5px;
+  }
+  @media(max-width: 800px){
+    button.button2{
+      padding: 8px 80px 9px;
+      font-size: 16px;
+    }
+    button.topbutton{
+      position: relative;
+      right: 95px;
+      top:115px;
+    }
+  }
+ body{
+  overflow-x: hidden;
+}
+button:hover{
+  background: rgba(255, 255, 255, 0.185);
+  transition: 0.6s;
+  
+}
