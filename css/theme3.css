@@ -222,9 +222,9 @@ html{
   pre{padding:15px;margin:30px 0}
   p{font:400 16px/26px Lato,sans-serif;color:#868A90;margin:15px 0}
   p a{margin:0;text-decoration:underline}
-  ul.list li{margin:7px 0;font-family:"Lato",sans-serif;color:#868A90;font-style:italic}
+  ul.list li{margin:7px 0;font-family:"Lato",sans-serif;color:#868A90;font-style:italic; list-style: none}
   ul.list2{padding:4px 0}
-  ul.list2 li{margin:10px 0;font-family:"Lato",sans-serif;color:#868A90;font-size:20px;color:#0c9ac8}
+  ul.list2 li{margin:10px 0;font-family:"Lato",sans-serif;color:#868A90;font-size:20px;color:#0c9ac8; list-style: none}
   ul.list2 li::before{content:"\f3fe";font-family:"Ionicons";color:#5B70C0;font-size:20px;font-style:normal;margin-right:15px;position:relative;top:2px}
   i{color:#0197d6;font-size:25px}
   .dark1 h1,.dark2 h1,.dark3 h1,.dark h1,.primary h1,.masonry .project-info h1{color:#fff}
